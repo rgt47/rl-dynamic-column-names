@@ -9,7 +9,7 @@ description: |
   A comprehensive guide to adding columns with programmatically-generated
   names in R dataframes. Covers base R, tidyverse (classic and modern),
   data.table, collapse, rlang::inject(), and do.call patterns.
-image: "media/images/hero.jpg"
+image: "media/images/hero.png"
 cluster: r-language
 cluster-order: 2
 ---
