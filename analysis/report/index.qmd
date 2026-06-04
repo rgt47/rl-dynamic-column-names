@@ -2,7 +2,7 @@
 title: "Dynamic Column Names in R: Seven Approaches Compared"
 author: "Zenn"
 date: "2026-02-16"
-draft: false
+draft: true
 document-type: 'blog'
 categories: [r, metaprogramming]
 description: |
@@ -189,7 +189,7 @@ dplyr is unacceptable.
 
 ---
 
-![Tidy evaluation approaches.](media/images/ambiance1.jpg){.img-fluid}
+![Tidy evaluation approaches.](media/images/ambiance1.png){.img-fluid}
 
 ## Approach 3: Classic Tidyverse with `!!` and `:=`
 
@@ -354,7 +354,7 @@ expressions before evaluation is desirable.
 
 ---
 
-![High-performance alternatives.](media/images/ambiance2.jpg){.img-fluid}
+![High-performance alternatives.](media/images/ambiance2.png){.img-fluid}
 
 ## Approach 6: data.table
 
