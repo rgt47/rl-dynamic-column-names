@@ -1,15 +1,21 @@
 ---
-title: "Dynamic Column Names in R: Seven Approaches Compared"
-author: "Zenn"
-date: "2026-02-16"
-draft: true
-document-type: 'blog'
-categories: [r, metaprogramming]
-description: |
-  A comprehensive guide to adding columns with programmatically-generated
+title: 'Dynamic Column Names in R: Seven Approaches Compared'
+author: Zenn
+date: '2026-02-16'
+draft: false
+document-type: blog
+categories:
+- r
+- metaprogramming
+- r-language
+description: 'A comprehensive guide to adding columns with programmatically-generated
+
   names in R dataframes. Covers base R, tidyverse (classic and modern),
+
   data.table, collapse, rlang::inject(), and do.call patterns.
-image: "media/images/hero.png"
+
+  '
+image: media/images/hero.png
 cluster: r-language
 cluster-order: 2
 ---
