@@ -2,7 +2,7 @@
 title: 'Dynamic Column Names in R: Seven Approaches Compared'
 author: Zenn
 date: '2026-02-16'
-draft: false
+draft: true
 document-type: blog
 categories:
 - r
