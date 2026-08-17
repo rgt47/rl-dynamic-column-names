@@ -1,21 +1,12 @@
 ---
-title: 'Dynamic Column Names in R: Seven Approaches Compared'
+title: "Dynamic Column Names in R: Seven Approaches Compared"
 author: "Ronald G. Thomas"
-date: '2026-02-16'
+date: "2026-02-16"
+categories: [r, metaprogramming, r-language]
+description: "A comprehensive guide to adding columns with programmatically-generated names in R dataframes. Covers base R, tidyverse (classic and modern), data.table, collapse, rlang::inject(), and do.call patterns."
+image: "media/images/hero.png"
+document-type: "blog"
 draft: true
-document-type: blog
-categories:
-- r
-- metaprogramming
-- r-language
-description: 'A comprehensive guide to adding columns with programmatically-generated
-
-  names in R dataframes. Covers base R, tidyverse (classic and modern),
-
-  data.table, collapse, rlang::inject(), and do.call patterns.
-
-  '
-image: media/images/hero.png
 execute:
   echo: true
   warning: false
@@ -203,7 +194,7 @@ dplyr is unacceptable.
 
 ---
 
-![Tidy evaluation approaches.](media/images/ambiance1.png){.img-fluid}
+![Tidy evaluation approaches.](media/images/ambiance1.png){.img-fluid height=3.5in}
 
 ## Approach 3: Classic Tidyverse with `!!` and `:=`
 
@@ -368,7 +359,7 @@ expressions before evaluation is desirable.
 
 ---
 
-![High-performance alternatives.](media/images/ambiance2.png){.img-fluid}
+![High-performance alternatives.](media/images/ambiance2.png){.img-fluid height=3.5in}
 
 ## Approach 6: data.table
 
