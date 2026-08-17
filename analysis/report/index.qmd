@@ -1,6 +1,6 @@
 ---
 title: 'Dynamic Column Names in R: Seven Approaches Compared'
-author: Zenn
+author: "Ronald G. Thomas"
 date: '2026-02-16'
 draft: true
 document-type: blog
@@ -16,6 +16,14 @@ description: 'A comprehensive guide to adding columns with programmatically-gene
 
   '
 image: media/images/hero.png
+execute:
+  echo: true
+  warning: false
+  message: false
+format:
+  html:
+    code-fold: false
+    code-tools: false
 cluster: r-language
 cluster-order: 2
 ---
