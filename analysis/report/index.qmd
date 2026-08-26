@@ -359,7 +359,7 @@ expressions before evaluation is desirable.
 
 ---
 
-![High-performance alternatives.](media/images/ambiance2.png){.img-fluid height=3.5in}
+![A brass stencil set with interchangeable letter plates beside a partially stenciled label: programmatically generating a name.](media/images/ambiance2.jpg){.img-fluid height=3.5in}
 
 ## Approach 6: data.table
 
