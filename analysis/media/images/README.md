@@ -1,5 +1,21 @@
 # Image attributions
 
+## Status (2026-08-25)
+
+`ambiance1.jpg` is a genuine Gemini generation as of 2026-08-25
+(generated via the `gemini-image-generator` tool), replacing an
+unrelated Reddit screenshot. `ambiance2` (a generic
+documentation-software logo) is still pending — the daily Gemini
+image-generation quota (250 requests/day) was exhausted mid-batch;
+generate and install it once the quota resets. Hero (a Rubik's cube
+on a wood table) is genuine.
+
+- `ambiance1.jpg`: a wooden filing drawer pulled open to reveal
+  several folders, each labeled in a different handwriting style.
+  Metaphor: the same data, named differently across approaches.
+
+Processed via `magick -resize 1600x -strip -quality 85` to 1600x873.
+
 ## Placeholder coffee images (temporary ambiance slots)
 
 These images are shared placeholders used across all posts until replaced

@@ -194,7 +194,7 @@ dplyr is unacceptable.
 
 ---
 
-![Tidy evaluation approaches.](media/images/ambiance1.png){.img-fluid height=3.5in}
+![A wooden filing drawer pulled open to reveal several folders, each labeled in a different handwriting style: the same data, named differently across approaches.](media/images/ambiance1.jpg){.img-fluid height=3.5in}
 
 ## Approach 3: Classic Tidyverse with `!!` and `:=`
 
