@@ -40,7 +40,7 @@ evaluation system: a powerful but often
 misunderstood feature for programmatic data
 manipulation.
 
-This exploration led to cataloguing seven different
+This exploration led to cataloging seven different
 approaches to creating columns with dynamic names
 in R:
 
@@ -188,7 +188,7 @@ computes grouped summaries without explicit loops.
 - Returns a `data.frame`, not a `tibble`
 
 **When to use:** Package development where
-minimising dependencies is critical, or
+minimizing dependencies is critical, or
 performance-sensitive code where the overhead of
 dplyr is unacceptable.
 
@@ -228,7 +228,7 @@ calculate_change_classic(df, "mmse")
 `mutate(new_col = value)` treats `new_col` as a
 literal name. The `=` operator does not evaluate
 its left-hand side. The `:=` operator changes this
-behaviour. When `mutate(!!bl_col := value)` is
+behavior. When `mutate(!!bl_col := value)` is
 written, the `!!` forces `bl_col` to be evaluated
 (yielding `"mmse_bl"`), and `:=` uses that string
 as the column name.
@@ -239,10 +239,10 @@ dataframe columns and local variables.
 
 **Advantages:**
 
-- Integrates seamlessly with dplyr pipelines
+- Integrates directly into dplyr pipelines
 - Grouped operations are trivial
 - Declarative, readable intent (once the syntax is
-  learnt)
+  learned)
 
 **Disadvantages:**
 
@@ -561,7 +561,7 @@ dt2 <- copy(dt)
 
 # What Did We Learn?
 
-## Lessons Learnt
+## Lessons Learned
 
 1. **`:=` enables dynamic LHS**: In both tidyverse and data.table, this
    operator allows the left side of an assignment to be evaluated
