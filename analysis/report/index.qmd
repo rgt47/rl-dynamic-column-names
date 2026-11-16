@@ -19,7 +19,10 @@ cluster: r-language
 cluster-order: 2
 ---
 
-![](media/images/thumbnail.png){.img-fluid width=40% fig-align="center"}
+![  ](media/images/hero.jpg){.img-fluid width=80% fig-align="center"}
+
+*Seven ways to name a column from a variable, and the reasons to choose
+one over another.*
 
 ## Introduction
 
@@ -414,8 +417,6 @@ codebases already using data.table.
 
 ---
 
-![Minimalist high-speed data tools.](media/images/placeholder-coffee-05.jpg){.img-fluid}
-
 ## Approach 7: collapse
 
 The collapse package offers high-performance data manipulation with its own
@@ -558,6 +559,8 @@ dt2[, new_col := 1]  # Modifies both dt and dt2
 # Safe copy:
 dt2 <- copy(dt)
 ```
+
+![Blank brass name plates of different shapes on dark felt.](media/images/ambiance3.jpg){.img-fluid height=3.5in}
 
 # What Did We Learn?
 
